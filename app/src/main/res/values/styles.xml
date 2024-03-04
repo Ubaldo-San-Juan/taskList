@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Lista_de_tareas_app" parent="Base.Theme.Lista_de_tareas_app" />
+
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+</resources>

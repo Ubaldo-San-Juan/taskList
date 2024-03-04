@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/newTaskText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Nueva Tarea"
+        android:minHeight="32dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/newTaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newTaskText"
+        android:layout_alignParentEnd="true"
+        android:textSize="16sp"
+        android:text="Guardar"
+        android:textAllCaps="false"
+        android:background="@color/transparent"
+        android:textColor="@color/material_dynamic_tertiary50"
+    />
+
+
+
+</RelativeLayout>
